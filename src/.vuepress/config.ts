@@ -45,5 +45,5 @@ export default defineUserConfig({
     }),
   ],
   shouldPrefetch: false,
-  dest: './docs/dist'
+  dest: './docs'
 });
