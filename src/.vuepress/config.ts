@@ -47,3 +47,6 @@ export default defineUserConfig({
   shouldPrefetch: false,
   dest: './dist'
 });
+
+// git push -f url master:deploy // url：推送的仓库地址，master:deploy是将本地的master分支推送到仓库的deploy分支
+// 可以在deploy使用 git fetch && git reset --hard origin/deploy，获取最新代码
