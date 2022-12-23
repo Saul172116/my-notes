@@ -8,7 +8,7 @@ const __dirname = getDirname(import.meta.url)
 
 //自定义用户配置
 export default defineUserConfig({
-  base: "/my-notes/",
+  base: "/my-notes",
 
   // 多语言设置
   locales: {
@@ -45,5 +45,5 @@ export default defineUserConfig({
     }),
   ],
   shouldPrefetch: false,
-  dest: './docs'
+  dest: './dist'
 });
