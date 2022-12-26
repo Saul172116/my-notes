@@ -120,16 +120,16 @@ export default hopeTheme({
   },
   plugins: {
     // 在MD文件中启用的组件
-    // components: [
-    //   // 为站点提供了在MD文档中自定义颜色的徽章
-    //   "Badge",
-    //   // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
-    //   "BiliBili",
-    //   // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
-    //   // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
-    //   // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
-    //   "PDF"
-    // ],
+    components: [
+      // 为站点提供了在MD文档中自定义颜色的徽章
+      "Badge",
+      // 为站点提供了在MD文档中加载B站视频的功能，但是不建议使用
+      "BiliBili",
+      // 为站点提供了在MD文档中加载PDF阅读器的功能，但是不建议使用
+      // 原因一：PDF书籍较大，上传到码云后会大量占用码云空间
+      // 原因二：当PDF阅读器较多的时候，将MD文档渲染成HTML页面比较耗费性能，使页面加载速度变慢
+      "PDF",
+    ],
     // 代码复制功能-vuepress-plugin-copy-code2
     copyCode: {
       // 在移动端也可以实现复制代码
@@ -184,7 +184,7 @@ export default hopeTheme({
     // 打开博客功能
     blog: {
       // 在文章列表页面自动提取文章的摘要进行显示
-      // autoExcerpt: true,
+      autoExcerpt: true,
     },
     // 开启git实现编辑此页面-最后更新时间-贡献者功能
     git: true,

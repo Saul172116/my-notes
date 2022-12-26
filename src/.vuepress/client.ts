@@ -1,7 +1,7 @@
 // 客户端增强配置文件-https://v2.vuepress.vuejs.org/zh/guide/migration.html#%E7%BA%A6%E5%AE%9A%E6%96%87%E4%BB%B6%E5%8F%98%E6%9B%B4
 import { defineClientConfig } from "@vuepress/client";
-import ElementPlus from 'element-plus'
-import 'element-plus/dist/index.css'
+import ElementPlus from "element-plus";
+import "element-plus/dist/index.css";
 
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
@@ -11,6 +11,3 @@ export default defineClientConfig({
     app.use(ElementPlus);
   },
 });
-
-
-
